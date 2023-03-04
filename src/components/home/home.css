@@ -1,0 +1,344 @@
+.numbers{
+    background-color: #a82d49;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0;
+}
+.numbers .row{
+    padding: 10px 0px;
+}
+.numbers h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #fff;
+}
+.numbers h6{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* start pride section */
+.pride, .ingredients{
+    background-color: transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.pride img, .ingredients img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.pride h2, .ingredients h2, .paralex h2, .blogs h2{
+    font-size: 35px;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px 0px;
+    color: #77132b;
+    line-height: 50px;
+}
+.pride p, .ingredients p, .blogs p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    margin-top: 15px;
+}
+.pride button, .ingredients button, .movable button, .sub-content button{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    transition: .2s ease;
+}
+.pride button a, .ingredients button a, .movable button a, .sub-content button a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pride button:hover a, .ingredients button:hover a, .movable button:hover a, .sub-content button:hover a{
+    color: #77132b;
+}
+.pride button:hover, .ingredients button:hover, .movable button:hover, .sub-content button:hover{
+    background-color: #fff;
+}
+/* end pride section */
+/* start ingredients section */
+.ingredients ul{
+    padding: 0;
+}
+.ingredients ul li{
+    list-style-type: square;
+    color: #333;
+    margin-top: 10px;
+}
+/* end ingredients section */
+/* start paralex section */
+.paralex{
+    background: url('../../assets/4.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+}
+.paralex .row{
+    margin: 50px 0;
+}
+.paralex h2{
+    width: 100%;
+    margin: 20px 0;
+}
+.paralex p{
+    color: #444;
+    margin: 20px 0;
+    line-height: 32px;
+}
+.paralex a{
+    color: #77132b;
+    font-size: 20px;
+    margin: 20px 0px;
+    text-decoration: none !important;
+}
+/* end paralex section */
+/* start products section */
+.blogs{
+    margin-top: 50px;
+    padding: 25px 0;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+.blogs .row:first-child{
+    text-align: center;
+    margin: 25px 0px;
+}
+.blogs .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.blogs h2{
+    font-size: 45px;
+    width: 100%;
+}
+.blogs button {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    background-color: #740c24;
+    border: 1px solid #740c24;
+    box-sizing: border-box;
+    margin: 10px 0;
+    transition: 0.3s ease-in-out;
+}
+.blogs button a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+}
+.blogs button:hover{
+    background-color: transparent;
+}
+.blogs button:hover a{
+    color: #740c24;
+}
+.blogs .box img{
+    width: 100%;
+}
+.blogs .box h5{
+    color: #77132b;
+    font-size: 22px;
+    margin: 15px 0;
+}
+.blogs .box span{
+    display: block;
+    color: #444;
+    font-size: 16px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.blogs .box h6{
+    color: #740c24;
+    font-size: 25px;
+}
+/* start slider */
+.slider{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 50px 0;
+}
+.slider h2{
+    color: #fff;
+    font-size: 40px;
+    margin: 30px 0px;
+    letter-spacing: 1px;
+}
+.slider .carousel{
+    background-color: #fff;
+    margin: 40px 0;
+    box-sizing: border-box;
+    border: 10px;
+    padding: 25px 0px;
+    border-radius: 10px;
+}
+.slider .carousel-item{
+    max-height: 300px;
+}
+.slider img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 150px;
+}
+.slider .carousel-caption{
+    padding-bottom: 0;
+}
+.slider .carousel-caption p{
+    color: #212121;
+    font-size: 17px;
+    line-height: 30px;
+}
+.slider .carousel-caption h3{
+    color: #77132b;
+    display: block;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -50px !important;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.slider .carousel-indicators button{
+    height: 15px;
+    border-radius: 50%;
+    background-color: #777;
+    opacity: .6;
+    border: 1px solid #77132b;
+    margin: 5px 5px 15px 5px;
+}
+.slider .carousel-indicators button.active{
+    background-color: #fff;
+    opacity: .9;
+}
+/* start faq */
+.faq h2, .sub h2{
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 50px 0;
+    font-weight: bold;
+}
+.faq h6{
+    font-weight: bold;
+    margin: 20px 0;
+}
+.faq p{
+    color: #777;
+}
+/* start movable */
+.movable{
+    background: url('../../assets/back1.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 50px 0;
+    background-attachment: fixed;
+    height: auto;
+    position: relative;
+    min-height: 200px;
+    display: flex;
+}
+.movable .overlay{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.movable .row{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.movable .movable-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.movable h2{
+    font-weight: bold;
+    color: #fff;
+}
+/* start subscription section*/
+.sub{
+    padding: 50px 0;
+}
+.sub .sub-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub h2{
+    text-align: center;
+    margin: 0;
+    color: #333;
+}
+.sub p{
+    color: #777;
+    margin: 50px;
+}
+
+.sub .enter input{
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    width: 100%;
+    border-radius: 0px;
+    background: transparent;
+    border: 3px solid #e5e5e5;
+    color: #000;
+    font-weight: 700;
+}
+.sub .input, .sub .button{
+    height: auto;
+}
+.sub .enter button{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
